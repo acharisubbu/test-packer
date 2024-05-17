@@ -8,12 +8,12 @@ packer {
 }
 
 source "amazon-ebs" "ubuntu" {
-  access_key    = ""
-  secret_key    = ""
+  access_key    = "AKIA5FTZC462EDGTMU4F"
+  secret_key    = "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"
   ami_name      = "Jenkins"
   instance_type = "t2.small"
-  region        = "us-east-1"
-  source_ami    = "ami-04b70fa74e45c3917"
+  region        = "ap-south-1"
+  source_ami    = ami-0f58b397bc5c1f2e8"
   ssh_username  = "ubuntu"
 }
 
