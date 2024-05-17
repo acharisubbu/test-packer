@@ -13,7 +13,7 @@ source "amazon-ebs" "ubuntu" {
   ami_name      = "Jenkins"
   instance_type = "t2.small"
   region        = "ap-south-1"
-  source_ami    = ami-0f58b397bc5c1f2e8"
+  source_ami    = "ami-0f58b397bc5c1f2e8"
   ssh_username  = "ubuntu"
 }
 
